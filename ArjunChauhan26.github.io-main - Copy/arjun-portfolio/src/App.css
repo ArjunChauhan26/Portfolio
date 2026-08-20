@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #07111f;
+  color: #f8fafc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: #0b1727;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  min-height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 70px;
+  flex-wrap: wrap;
+
+  padding: 50px;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 5px solid #2563eb;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero h2 {
+  margin-top: 12px;
+  color: #60a5fa;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.summary {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+.buttons {
+  margin-top: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+
+  background: #2563eb;
+  color: white;
+
+  padding: 14px 22px;
+
+  border-radius: 10px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+  padding: 40px;
+}
+
+.stat-card {
+  background: #111c2d;
+
+  padding: 30px;
+
+  border-radius: 16px;
+
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #60a5fa;
+  font-size: 3rem;
+}
+
+.section {
+  padding: 80px 50px;
+}
+
+.section h2 {
+  margin-bottom: 30px;
+  color: #60a5fa;
+}
+
+.snapshot-grid,
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 20px;
+}
+
+.card {
+  background: #111c2d;
+
+  padding: 25px;
+
+  border-radius: 16px;
+
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.timeline {
+  border-left: 4px solid #2563eb;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+}
+
+.timeline-item h3 {
+  color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+}
