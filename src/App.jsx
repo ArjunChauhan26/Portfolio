@@ -442,83 +442,153 @@ function App() {
             CAREER JOURNEY
         ========================== */}
         <section id="journey" className="section">
-          <div className="section-heading">
-            <span>CAREER PROGRESSION</span>
-            <h2>Career Journey</h2>
-            <p>
-              Progression from engineering and manufacturing technology into
-              enterprise implementation leadership.
-            </p>
-          </div>
 
-          <div className="career-timeline">
-            <div className="career-item">
-              <span className="career-year">2017 — 2021</span>
+          <p className="journey-tag">
+            CAREER ASCENT
+          </p>
 
-              <div className="career-card">
-                <div className="career-dot"></div>
+          <h2>
+            From Engineer to Enterprise Leader
+          </h2>
 
-                <h3>Junior Engineer → Engineer</h3>
+          <p className="journey-intro">
+            A progressive journey from engineering foundations to implementation,
+            product specialization, consulting, delivery leadership and enterprise
+            transformation.
+          </p>
+
+          <div className="career-roadmap">
+
+            <div className="roadmap-item completed">
+              <div className="roadmap-dot"></div>
+
+              <div className="roadmap-card">
+                <span>2017 - 2019</span>
+
+                <h3>Junior Engineer</h3>
+
                 <h4>Motherson Group</h4>
 
                 <p>
-                  Built a strong engineering foundation with exposure to
-                  manufacturing processes, enterprise technology and industrial
-                  systems.
+                  Manufacturing systems foundation and industrial automation exposure.
                 </p>
               </div>
             </div>
 
-            <div className="career-item">
-              <span className="career-year">2021 — 2022</span>
+            <div className="roadmap-item completed">
+              <div className="roadmap-dot"></div>
 
-              <div className="career-card">
-                <div className="career-dot"></div>
+              <div className="roadmap-card">
+                <span>2019 - 2021</span>
 
-                <h3>MES Engineer</h3>
-                <h4>Samvardhana Motherson</h4>
+                <h3>Implementation Engineer</h3>
+
+                <h4>Motherson Group</h4>
 
                 <p>
-                  Worked on MES implementation, production systems,
-                  traceability and machine connectivity in manufacturing
-                  environments.
+                  Customer implementations, deployments, support and training.
                 </p>
               </div>
             </div>
 
-            <div className="career-item">
-              <span className="career-year">2022 — 2024</span>
+            <div className="roadmap-item completed">
+              <div className="roadmap-dot"></div>
 
-              <div className="career-card">
-                <div className="career-dot"></div>
+              <div className="roadmap-card">
+                <span>2022 - 2024</span>
 
-                <h3>Senior Engineer</h3>
-                <h4>Motherson Technology Services</h4>
+                <h3>MES Product Specialist</h3>
+
+                <h4>Motherson Group</h4>
 
                 <p>
-                  Progressed into enterprise solution delivery, stakeholder
-                  coordination, ERP integration and functional consulting.
+                  MES product ownership, ERP integration, traceability and consulting.
                 </p>
               </div>
             </div>
 
-            <div className="career-item active">
-              <span className="career-year">2024 — Present</span>
+            <div className="roadmap-item current">
+              <div className="roadmap-dot"></div>
 
-              <div className="career-card">
-                <div className="career-dot"></div>
+              <div className="roadmap-card">
+                <span>2024 - Present</span>
 
                 <h3>Software Implementation Manager</h3>
+
                 <h4>Addverb Technology</h4>
 
                 <p>
-                  Leading enterprise implementation activities covering
-                  delivery planning, resource alignment, stakeholder
-                  management, team leadership and warehouse automation.
+                  Leading enterprise delivery, stakeholder management and warehouse automation programs.
                 </p>
               </div>
             </div>
+
+            <div className="roadmap-item next">
+              <div className="roadmap-dot"></div>
+
+              <div className="roadmap-card">
+                <span>Next Step</span>
+
+                <h3>Techno-Functional Consultant & Product Manager</h3>
+
+                <h4>Target Role</h4>
+
+                <p>
+                  Product ownership, requirements engineering, customer engagement and solution design.
+                </p>
+              </div>
+            </div>
+
+            <div className="roadmap-item future">
+              <div className="roadmap-dot"></div>
+
+              <div className="roadmap-card">
+                <span>Future</span>
+
+                <h3>Delivery Manager</h3>
+
+                <h4>Leadership Growth</h4>
+
+                <p>
+                  Driving enterprise delivery, governance and execution excellence.
+                </p>
+              </div>
+            </div>
+
+            <div className="roadmap-item future">
+              <div className="roadmap-dot"></div>
+
+              <div className="roadmap-card">
+                <span>Future</span>
+
+                <h3>Program Manager</h3>
+
+                <h4>Strategic Delivery</h4>
+
+                <p>
+                  Managing portfolios, governance, business outcomes and transformation programs.
+                </p>
+              </div>
+            </div>
+
+            <div className="roadmap-item vision">
+              <div className="roadmap-dot"></div>
+
+              <div className="roadmap-card">
+                <span>Vision</span>
+
+                <h3>Enterprise Leader</h3>
+
+                <h4>Long-Term Goal</h4>
+
+                <p>
+                  Driving enterprise transformation, business strategy and large-scale digital initiatives.
+                </p>
+              </div>
+            </div>
+
           </div>
+
         </section>
 
         {/* =========================

@@ -919,6 +919,89 @@ a {
    CAREER TIMELINE
 ========================================================= */
 
+.career-roadmap{
+    width:700px;
+    max-width:100%;
+    margin:auto;
+    position:relative;
+}
+
+.career-roadmap::before{
+    content:"";
+    position:absolute;
+    left:18px;
+    top:0;
+    width:4px;
+    height:100%;
+    background:#2563eb;
+}
+
+.roadmap-item{
+    position:relative;
+    margin-bottom:40px;
+    padding-left:70px;
+}
+
+.roadmap-dot{
+    position:absolute;
+    left:7px;
+    top:15px;
+
+    width:25px;
+    height:25px;
+
+    border-radius:50%;
+}
+
+.completed .roadmap-dot{
+    background:#2563eb;
+}
+
+.current .roadmap-dot{
+    background:gold;
+    box-shadow:0 0 20px gold;
+}
+
+.next .roadmap-dot{
+    background:#7dd3fc;
+}
+
+.future .roadmap-dot{
+    background:transparent;
+    border:3px solid #2563eb;
+}
+
+.vision .roadmap-dot{
+    background:#ef4444;
+    box-shadow:0 0 20px #ef4444;
+}
+
+.roadmap-card{
+    background:#111c2d;
+    padding:25px;
+    border-radius:16px;
+}
+
+.roadmap-card h3{
+    margin-top:10px;
+    color:#60a5fa;
+}
+
+.roadmap-card h4{
+    margin:10px 0;
+}
+
+.journey-tag{
+    color:#60a5fa;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.journey-intro{
+    max-width:800px;
+    margin-bottom:50px;
+}
+
 .career-timeline {
   width: 100%;
 
