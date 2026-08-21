@@ -452,137 +452,104 @@ function App() {
           </h2>
 
           <p className="journey-intro">
-            A progressive journey from engineering foundations to implementation,
-            product specialization, consulting, delivery leadership and enterprise
-            transformation.
+            My growth journey from engineering foundations to consulting,
+            product ownership, delivery leadership and enterprise transformation.
           </p>
 
-          <div className="career-roadmap">
+          <div className="metro-route">
 
-            <div className="roadmap-item completed">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step completed">
+              <div className="metro-icon">●</div>
 
-              <div className="roadmap-card">
-                <span>2017 - 2019</span>
-
+              <div className="metro-content">
                 <h3>Junior Engineer</h3>
-
-                <h4>Motherson Group</h4>
-
+                <span>2017 - 2019 | Motherson Group</span>
                 <p>
                   Manufacturing systems foundation and industrial automation exposure.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item completed">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step completed">
+              <div className="metro-icon">●</div>
 
-              <div className="roadmap-card">
-                <span>2019 - 2021</span>
-
+              <div className="metro-content">
                 <h3>Implementation Engineer</h3>
-
-                <h4>Motherson Group</h4>
-
+                <span>2019 - 2021 | Motherson Group</span>
                 <p>
                   Customer implementations, deployments, support and training.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item completed">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step completed">
+              <div className="metro-icon">●</div>
 
-              <div className="roadmap-card">
-                <span>2022 - 2024</span>
-
+              <div className="metro-content">
                 <h3>MES Product Specialist</h3>
-
-                <h4>Motherson Group</h4>
-
+                <span>2022 - 2024 | Motherson Group</span>
                 <p>
-                  MES product ownership, ERP integration, traceability and consulting.
+                  MES product ownership, ERP integration and solution consulting.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item current">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step current">
+              <div className="metro-icon">★</div>
 
-              <div className="roadmap-card">
-                <span>2024 - Present</span>
-
+              <div className="metro-content">
                 <h3>Software Implementation Manager</h3>
-
-                <h4>Addverb Technology</h4>
-
+                <span>2024 - Present | Addverb Technology</span>
                 <p>
-                  Leading enterprise delivery, stakeholder management and warehouse automation programs.
+                  Enterprise delivery, warehouse automation and stakeholder management.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item next">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step next">
+              <div className="metro-icon">◆</div>
 
-              <div className="roadmap-card">
-                <span>Next Step</span>
-
+              <div className="metro-content">
                 <h3>Techno-Functional Consultant & Product Manager</h3>
-
-                <h4>Target Role</h4>
-
+                <span>Next Career Move</span>
                 <p>
-                  Product ownership, requirements engineering, customer engagement and solution design.
+                  Product strategy, requirements engineering and customer consulting.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item future">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step future">
+              <div className="metro-icon">◇</div>
 
-              <div className="roadmap-card">
-                <span>Future</span>
-
+              <div className="metro-content">
                 <h3>Delivery Manager</h3>
-
-                <h4>Leadership Growth</h4>
-
+                <span>Leadership Journey</span>
                 <p>
-                  Driving enterprise delivery, governance and execution excellence.
+                  Multi-project governance and enterprise delivery excellence.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item future">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step future">
+              <div className="metro-icon">◇</div>
 
-              <div className="roadmap-card">
-                <span>Future</span>
-
+              <div className="metro-content">
                 <h3>Program Manager</h3>
-
-                <h4>Strategic Delivery</h4>
-
+                <span>Strategic Delivery</span>
                 <p>
-                  Managing portfolios, governance, business outcomes and transformation programs.
+                  Portfolio governance, transformation initiatives and business outcomes.
                 </p>
               </div>
             </div>
 
-            <div className="roadmap-item vision">
-              <div className="roadmap-dot"></div>
+            <div className="metro-step vision">
+              <div className="metro-icon">🎯</div>
 
-              <div className="roadmap-card">
-                <span>Vision</span>
-
+              <div className="metro-content">
                 <h3>Enterprise Leader</h3>
-
-                <h4>Long-Term Goal</h4>
-
+                <span>Long Term Vision</span>
                 <p>
-                  Driving enterprise transformation, business strategy and large-scale digital initiatives.
+                  Driving enterprise-wide digital transformation and business strategy.
                 </p>
               </div>
             </div>

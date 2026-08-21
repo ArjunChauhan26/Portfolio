@@ -1002,18 +1002,123 @@ a {
     margin-bottom:50px;
 }
 
-.career-timeline {
-  width: 100%;
+/* ===== CAREER METRO ROUTE ===== */
 
-  margin-top: 50px;
-
-  display: grid;
-
-  grid-template-columns:
-    repeat(4, minmax(0, 1fr));
-
-  gap: 18px;
+.metro-route{
+    width:900px;
+    max-width:100%;
+    margin:50px auto 0;
+    position:relative;
 }
+
+.metro-route::before{
+    content:"";
+    position:absolute;
+    left:22px;
+    top:0;
+    width:4px;
+    height:100%;
+    background:var(--accent,#2563eb);
+}
+
+.metro-step{
+    position:relative;
+    display:flex;
+    gap:30px;
+    margin-bottom:45px;
+    align-items:flex-start;
+}
+
+.metro-icon{
+    position:relative;
+    z-index:2;
+
+    width:48px;
+    height:48px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.completed .metro-icon{
+    color:#60a5fa;
+}
+
+.current .metro-icon{
+    color:#facc15;
+    text-shadow:0 0 20px #facc15;
+}
+
+.next .metro-icon{
+    color:#38bdf8;
+}
+
+.future .metro-icon{
+    color:#ffffff;
+}
+
+.vision .metro-icon{
+    font-size:28px;
+}
+
+.metro-content{
+    flex:1;
+
+    border-radius:18px;
+    padding:24px;
+
+    background:var(--card-bg,#111c2d);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
+}
+
+.metro-content:hover{
+    transform:translateX(10px);
+}
+
+.metro-content h3{
+    color:var(--text-primary,#f8fafc);
+    margin-bottom:10px;
+}
+
+.metro-content span{
+    display:block;
+    color:var(--accent,#60a5fa);
+    margin-bottom:12px;
+}
+
+.metro-content p{
+    color:var(--text-secondary,#cbd5e1);
+    line-height:1.7;
+}
+
+.journey-tag{
+    color:var(--accent,#60a5fa);
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.journey-intro{
+    max-width:800px;
+    margin:0 auto;
+}
+
+/* LIGHT MODE SUPPORT */
+
+.light-mode .metro-content{
+    background:#ffffff;
+    color:#111827;
+    border:1px solid #e5e7eb;
+}
+
+.light
 
 .career-item {
   min-width: 0;
